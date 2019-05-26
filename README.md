@@ -44,13 +44,7 @@ Twilio Functionで環境変数を追加してください。
 | 環境変数名 | 値 |
 |----------|----------|
 |FROM|購入した電話番号|
-|ACCOUNT_SID|[ダッシュボードのトップページ](https://jp.twilio.com/console)でコピーできます|
-|AUTH_TOKEN|[ダッシュボードのトップページ](https://jp.twilio.com/console)でコピーできます|
 |FLOW_SID|[Studioのダッシュボード](https://jp.twilio.com/console/studio/dashboard)で確認できます|
-
-![](img/image-1.png)
-
-![](img/image-2.png)
 
 ![](img/image-3.png)
 
@@ -66,13 +60,9 @@ Twilio Functionで環境変数を追加してください。
 コードは下記になります。
 
 ```js
-// Twilioライブラリの読み込み
-const twilio = require('twilio');
-
 exports.handler = function(context, event, callback) {
   // Twilioクライアントの生成
-  // アカウントSIDとAuthトークンを使います
-  const client = new twilio(context.ACCOUNT_SID, context.AUTH_TOKEN);
+  const client = context.getTwilioClient();
   // FLOW SIDを指定して実行します
   // 電話先（to）は後ほど指定します
   client.studio.v1.flows(context.FLOW_SID).executions.create({
