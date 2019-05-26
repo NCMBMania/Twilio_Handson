@@ -48,6 +48,12 @@ Twilio Functionで環境変数を追加してください。
 |AUTH_TOKEN|[ダッシュボードのトップページ](https://jp.twilio.com/console)でコピーできます|
 |FLOW_SID|[Studioのダッシュボード](https://jp.twilio.com/console/studio/dashboard)で確認できます|
 
+![](img/image-1.png)
+
+![](img/image-2.png)
+
+![](img/image-3.png)
+
 ### コードの追加
 
 [Functionの管理画面](https://jp.twilio.com/console/runtime/functions/manage)に戻って、新しいファンクションを追加します（赤いプラスボタンをクリックします）。Blankで作成してください。ついで設定を次のようにします。
@@ -134,6 +140,8 @@ await answer
 ```
 
 これで `Answer` というデータストアのクラスの中に、電話番号と押した値が保存されます。
+
+![](img/image-4.png)
 
 ----
 
