@@ -11,7 +11,7 @@
 
 まずベースになるMonacaアプリをインポートします。下記のURLをクリックして、プロジェクトをインポートしてください。
 
-https://monaca.mobi/ja/directimport?pid=5cea4f52e78885dc72242c6a
+https://monaca.mobi/ja/directimport?pid=5cebb393e788855b796e4b03
 
 無料アカウントの場合、利用できるプロジェクトは3つまでと言う制限があります。取り込めない場合は、一つプロジェクトをアーカイブしてください。
 
