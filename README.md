@@ -9,7 +9,12 @@
 
 ## 下準備
 
-まずベースになるMonacaアプリをインポートします。下記のURLをクリックして、プロジェクトをインポートしてください。
+まず下記サービスのアカウントを取得してください。
+
+- [Monaca](https://ja.monaca.io/)
+- [ニフクラ mobile backend](https://mbaas.nifcloud.com/)
+
+ベースになるMonacaアプリをインポートします。下記のURLをクリックして、プロジェクトをインポートしてください。
 
 https://monaca.mobi/ja/directimport?pid=5cebb393e788855b796e4b03
 
