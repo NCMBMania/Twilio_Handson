@@ -61,6 +61,7 @@ Twilio Functionで環境変数を追加してください。
 |-----|-----|
 |FUNCTION NAME|Call|
 |PATH|/call|
+|ACCESS CONTROL|Check for valid Twilio signatureを外す|
 
 コードは下記になります。
 
